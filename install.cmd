@@ -11,5 +11,6 @@ CALL %UserProfile%\Anaconda3\Scripts\conda install -y h5py
 CALL %UserProfile%\Anaconda3\Scripts\conda install -y matplotlib
 call %userprofile%\anaconda3\envs\qcodes-qdev-master\scripts\pip install pyqtgraph
 ECHO "Installing final bits.."
-CALL %UserProfile%\Anaconda3\envs\qcodes-qdev-master\Scripts\pip install git+https://github.com/qdev-dk/Qcodes.git
-ECHO "DONE, close window if"
+CALL %UserProfile%\Anaconda3\envs\qcodes-qdev-master\Scripts\pip install https://github.com/qdev-dk/Qcodes/archive/master.zip
+ECHO "DONE, you can close the window now"
+pause
