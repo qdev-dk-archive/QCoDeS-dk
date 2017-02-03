@@ -4,7 +4,7 @@ Qdev-centric version of qcodes
 
 ## Installation:
  - Download the lastest release:
-https://github.com/qdev-dk/QCoDeS-dk/archive/v0.1.zip
+https://github.com/qdev-dk/QCoDeS-dk/archive/v0.2.1.zip
  - unzip 
  - Double click on install
  
