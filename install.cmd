@@ -9,7 +9,7 @@ CALL %UserProfile%\Anaconda3\Scripts\conda create -y -n qcodes-qdev-master pytho
 CALL %UserProfile%\Anaconda3\Scripts\activate qcodes-qdev-master
 CALL %UserProfile%\Anaconda3\Scripts\conda install -y h5py
 CALL %UserProfile%\Anaconda3\Scripts\conda install -y matplotlib
-call %userprofile%\anaconda3\envs\qcodes-qdev-master\scripts\pip install pyqtgraph
+call %userprofile%\Anaconda3\envs\qcodes-qdev-master\scripts\pip install pyqtgraph
 ECHO "Installing final bits.."
 CALL %UserProfile%\Anaconda3\envs\qcodes-qdev-master\Scripts\pip install https://github.com/qdev-dk/Qcodes/archive/master.zip
 ECHO "DONE, you can close the window now"
