@@ -12,5 +12,6 @@ CALL %UserProfile%\Anaconda3\Scripts\conda install -y matplotlib
 call %userprofile%\Anaconda3\envs\qcodes-qdev-master\scripts\pip install pyqtgraph
 ECHO "Installing final bits.."
 CALL %UserProfile%\Anaconda3\envs\qcodes-qdev-master\Scripts\pip install https://github.com/qdev-dk/Qcodes/archive/master.zip
+CALL %UserProfile%\Anaconda3\envs\qcodes-qdev-master\Scripts\pip install git+https://github.com/QCoDeS/broadbean.git
 ECHO "DONE, you can close the window now"
 pause
